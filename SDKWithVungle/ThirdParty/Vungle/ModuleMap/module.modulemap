@@ -1,0 +1,12 @@
+
+module InsiderMobile [system] {
+	// Framework complier
+	header "../../../../Pods/InsiderMobile/InsiderMobile.framework/Headers/Insider.h"
+	
+	//App complier
+//	header "../../../../../../Pods/InsiderMobile/InsiderMobile.framework/Headers/Insider.h"
+
+    export *
+}
+
+

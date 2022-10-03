@@ -1,0 +1,6 @@
+framework module SDKWithVungle {
+  umbrella header "SDKWithVungle-umbrella.h"
+
+  export *
+  module * { export * }
+}

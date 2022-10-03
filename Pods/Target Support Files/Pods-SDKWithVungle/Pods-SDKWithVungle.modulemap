@@ -1,0 +1,6 @@
+framework module Pods_SDKWithVungle {
+  umbrella header "Pods-SDKWithVungle-umbrella.h"
+
+  export *
+  module * { export * }
+}

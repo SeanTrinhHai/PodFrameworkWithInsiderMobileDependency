@@ -1,0 +1,28 @@
+PODS:
+  - SDKWithVungle/Vungle (1.0.0):
+    - VungleSDK-iOS (= 5.4.0)
+  - VungleSDK-iOS (5.4.0)
+
+DEPENDENCIES:
+  - "SDKWithVungle/Vungle (from `git@github.com:bryanboyko/PodFrameworkWithVungleDependency`)"
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - VungleSDK-iOS
+
+EXTERNAL SOURCES:
+  SDKWithVungle:
+    :git: "git@github.com:bryanboyko/PodFrameworkWithVungleDependency"
+
+CHECKOUT OPTIONS:
+  SDKWithVungle:
+    :commit: 71d9323dba6add185e4f46dbca7fca2ef4b6019b
+    :git: "git@github.com:bryanboyko/PodFrameworkWithVungleDependency"
+
+SPEC CHECKSUMS:
+  SDKWithVungle: afa0ca96d72aebc13eb261eb0b1f3fc61ca2160d
+  VungleSDK-iOS: bf5bb77eedc065e28c34d8613b027ef9cc3053c2
+
+PODFILE CHECKSUM: 15fdb8a2475827c519634fa032dd8e0f7c7f849a
+
+COCOAPODS: 1.11.3

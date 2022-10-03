@@ -1,0 +1,16 @@
+PODS:
+  - InsiderMobile (11.0.0)
+
+DEPENDENCIES:
+  - InsiderMobile (= 11.0)
+
+SPEC REPOS:
+  trunk:
+    - InsiderMobile
+
+SPEC CHECKSUMS:
+  InsiderMobile: f43891fb4f780ee7d8bc3502eb763d5ec6f4c5b9
+
+PODFILE CHECKSUM: 9ff31bc12b62a01f92759b1211c3de79b8a4af74
+
+COCOAPODS: 1.11.3

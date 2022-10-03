@@ -1,0 +1,42 @@
+{
+  "name": "SDKWithVungle",
+  "version": "1.0.0",
+  "summary": "summary",
+  "description": "description",
+  "homepage": "https://homepage.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SDKWithVungle": "SDKWithVungle"
+  },
+  "source": {
+    "git": "git@github.com:bryanboyko/PodFrameworkWithVungleDependency.git",
+    "tag": "1.0.0"
+  },
+  "swift_version": "4.0",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  },
+  "static_framework": true,
+  "subspecs": [
+    {
+      "name": "Vungle",
+      "dependencies": {
+        "VungleSDK-iOS": [
+          "5.4.0"
+        ]
+      },
+      "source_files": [
+        "SDKWithVungle/ThirdParty/*.swift",
+        "SDKWithVungle/ThirdParty/Vungle/**/*"
+      ],
+      "xcconfig": {
+        "SWIFT_INCLUDE_PATHS": "$(PODS_TARGET_SRCROOT)/SDKWithVungle/ThirdParty/Vungle/ModuleMap"
+      },
+      "preserve_paths": "SDKWithVungle/ThirdParty/Vungle/ModuleMap/module.modulemap"
+    }
+  ]
+}
