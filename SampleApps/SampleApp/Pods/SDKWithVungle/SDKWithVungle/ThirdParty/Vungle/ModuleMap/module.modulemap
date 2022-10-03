@@ -1,7 +1,12 @@
 
-module VungleSDK [system] {
-//    umbrella header "/Users/sean/Downloads/PodFrameworkWithVungleDependency-master/SampleApps/SampleApp/Pods/VungleSDK-iOS/VungleSDK.framework/Headers/VungleSDK.h"
-	umbrella header "../../../../../../Pods/VungleSDK-iOS/VungleSDK.framework/Headers/VungleSDK.h"
+module InsiderMobile [system] {
+	// Framework complier
+//	header "../../../../Pods/InsiderMobile/InsiderMobile.framework/Headers/Insider.h"
+	
+	//App complier
+	header "../../../../../../Pods/InsiderMobile/InsiderMobile.framework/Headers/Insider.h"
+
     export *
 }
+
 

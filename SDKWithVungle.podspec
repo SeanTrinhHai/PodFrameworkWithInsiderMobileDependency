@@ -10,6 +10,8 @@ description
   s.author           = { 'SDKWithVungle' => 'SDKWithVungle' }
   s.source           = { :git => 'git@github.com:bryanboyko/PodFrameworkWithVungleDependency.git', :tag => s.version.to_s }
   s.swift_version    = "4.0"
+  
+	s.source_files = "Sources/**/*.{swift, h}"
 
   s.requires_arc     = true
   s.platform         = :ios, '11.0'

@@ -1,4 +1,4 @@
- platform :ios, '8.0'
+ platform :ios, '11.0'
 
 target 'SampleApp' do
   use_frameworks!
@@ -6,8 +6,10 @@ target 'SampleApp' do
 # IF USING REMOTE PATH, RUN SAMPLE APP TO SEE BUILD ERROR.
 # SAMPLE APP RUNS SUCCESSFULLY WHEN POD INSTALLING USING LOCAL PATH.
 
-  pod 'SDKWithVungle/Vungle', :git => 'git@github.com:bryanboyko/PodFrameworkWithVungleDependency'
+#pod 'SDKWithVungle/Vungle', :git => 'git@github.com:bryanboyko/PodFrameworkWithVungleDependency'
+
 #  pod 'SDKWithVungle/Vungle', :path => "../.."
+pod 'SDKWithVungle', :git => 'git@github.com:SeanTrinhHai/PodFrameworkWithInsiderMobileDependency.git'
 
   target 'SampleAppTests' do
     inherit! :search_paths

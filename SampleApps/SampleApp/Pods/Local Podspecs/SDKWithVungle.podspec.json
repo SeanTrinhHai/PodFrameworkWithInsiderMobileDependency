@@ -15,18 +15,18 @@
     "git": "git@github.com:bryanboyko/PodFrameworkWithVungleDependency.git",
     "tag": "1.0.0"
   },
-  "swift_version": "4.0",
+  "swift_versions": "4.0",
   "requires_arc": true,
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
   "static_framework": true,
   "subspecs": [
     {
-      "name": "Vungle",
+      "name": "InsiderMobile",
       "dependencies": {
-        "VungleSDK-iOS": [
-          "5.4.0"
+        "InsiderMobile": [
+          "11.0"
         ]
       },
       "source_files": [
@@ -38,5 +38,6 @@
       },
       "preserve_paths": "SDKWithVungle/ThirdParty/Vungle/ModuleMap/module.modulemap"
     }
-  ]
+  ],
+  "swift_version": "4.0"
 }

@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		08BF641F5CC03B9192EC0BD7 /* Pods_SDKWithVungleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E315B1FC8BF9A710EC3FED50 /* Pods_SDKWithVungleTests.framework */; };
 		1416BF8F28EA9DE7003D051A /* PublicClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416BF8E28EA9DE7003D051A /* PublicClass.swift */; };
+		1416BFF828EABFDE003D051A /* InsiderProviderAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416BFF728EABFDE003D051A /* InsiderProviderAdapter.swift */; };
+		1416BFFA28EAC006003D051A /* InsiderEventMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416BFF928EAC006003D051A /* InsiderEventMapper.swift */; };
+		1416BFFF28EAC051003D051A /* AnalyticEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416BFFB28EAC051003D051A /* AnalyticEvent.swift */; };
+		1416C00028EAC051003D051A /* AnalyticProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416BFFC28EAC051003D051A /* AnalyticProductItem.swift */; };
+		1416C00128EAC051003D051A /* AnalyticParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416BFFD28EAC051003D051A /* AnalyticParam.swift */; };
+		1416C00228EAC051003D051A /* AnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416BFFE28EAC051003D051A /* AnalyticsProvider.swift */; };
 		19E7EAD3207E7407009AFA57 /* SDKWithVungle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E7EAC9207E7407009AFA57 /* SDKWithVungle.framework */; };
 		19E7EAD8207E7407009AFA57 /* SDKWithVungleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E7EAD7207E7407009AFA57 /* SDKWithVungleTests.swift */; };
 		19E7EADA207E7407009AFA57 /* SDKWithVungle.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E7EACC207E7407009AFA57 /* SDKWithVungle.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +35,12 @@
 /* Begin PBXFileReference section */
 		1416BF8728EA8855003D051A /* SDKWithVungle.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SDKWithVungle.podspec; sourceTree = "<group>"; };
 		1416BF8E28EA9DE7003D051A /* PublicClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicClass.swift; sourceTree = "<group>"; };
+		1416BFF728EABFDE003D051A /* InsiderProviderAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsiderProviderAdapter.swift; sourceTree = "<group>"; };
+		1416BFF928EAC006003D051A /* InsiderEventMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsiderEventMapper.swift; sourceTree = "<group>"; };
+		1416BFFB28EAC051003D051A /* AnalyticEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticEvent.swift; sourceTree = "<group>"; };
+		1416BFFC28EAC051003D051A /* AnalyticProductItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticProductItem.swift; sourceTree = "<group>"; };
+		1416BFFD28EAC051003D051A /* AnalyticParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticParam.swift; sourceTree = "<group>"; };
+		1416BFFE28EAC051003D051A /* AnalyticsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsProvider.swift; sourceTree = "<group>"; };
 		19E7EAC9207E7407009AFA57 /* SDKWithVungle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKWithVungle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E7EACC207E7407009AFA57 /* SDKWithVungle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKWithVungle.h; sourceTree = "<group>"; };
 		19E7EACD207E7407009AFA57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +81,12 @@
 		1416BF8D28EA9DCF003D051A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1416BFFB28EAC051003D051A /* AnalyticEvent.swift */,
+				1416BFFD28EAC051003D051A /* AnalyticParam.swift */,
+				1416BFFC28EAC051003D051A /* AnalyticProductItem.swift */,
+				1416BFFE28EAC051003D051A /* AnalyticsProvider.swift */,
+				1416BFF928EAC006003D051A /* InsiderEventMapper.swift */,
+				1416BFF728EABFDE003D051A /* InsiderProviderAdapter.swift */,
 				1416BF8E28EA9DE7003D051A /* PublicClass.swift */,
 			);
 			path = Sources;
@@ -320,8 +338,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1416BFFA28EAC006003D051A /* InsiderEventMapper.swift in Sources */,
+				1416BFF828EABFDE003D051A /* InsiderProviderAdapter.swift in Sources */,
 				19E7EB1E207E772B009AFA57 /* SwiftWithVungle.swift in Sources */,
+				1416BFFF28EAC051003D051A /* AnalyticEvent.swift in Sources */,
 				1416BF8F28EA9DE7003D051A /* PublicClass.swift in Sources */,
+				1416C00228EAC051003D051A /* AnalyticsProvider.swift in Sources */,
+				1416C00128EAC051003D051A /* AnalyticParam.swift in Sources */,
+				1416C00028EAC051003D051A /* AnalyticProductItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
