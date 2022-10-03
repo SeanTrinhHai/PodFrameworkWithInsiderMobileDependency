@@ -1,28 +1,30 @@
 PODS:
-  - SDKWithVungle/Vungle (1.0.0):
-    - VungleSDK-iOS (= 5.4.0)
-  - VungleSDK-iOS (5.4.0)
+  - InsiderMobile (11.0.0)
+  - SDKWithVungle (1.0.0):
+    - SDKWithVungle/InsiderMobile (= 1.0.0)
+  - SDKWithVungle/InsiderMobile (1.0.0):
+    - InsiderMobile (= 11.0)
 
 DEPENDENCIES:
-  - "SDKWithVungle/Vungle (from `git@github.com:bryanboyko/PodFrameworkWithVungleDependency`)"
+  - "SDKWithVungle (from `git@github.com:SeanTrinhHai/PodFrameworkWithInsiderMobileDependency.git`)"
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - VungleSDK-iOS
+  trunk:
+    - InsiderMobile
 
 EXTERNAL SOURCES:
   SDKWithVungle:
-    :git: "git@github.com:bryanboyko/PodFrameworkWithVungleDependency"
+    :git: "git@github.com:SeanTrinhHai/PodFrameworkWithInsiderMobileDependency.git"
 
 CHECKOUT OPTIONS:
   SDKWithVungle:
-    :commit: 71d9323dba6add185e4f46dbca7fca2ef4b6019b
-    :git: "git@github.com:bryanboyko/PodFrameworkWithVungleDependency"
+    :commit: 1ac75f058cf616a28cfeb24b4e8b0bc068c649fa
+    :git: "git@github.com:SeanTrinhHai/PodFrameworkWithInsiderMobileDependency.git"
 
 SPEC CHECKSUMS:
-  SDKWithVungle: afa0ca96d72aebc13eb261eb0b1f3fc61ca2160d
-  VungleSDK-iOS: bf5bb77eedc065e28c34d8613b027ef9cc3053c2
+  InsiderMobile: f43891fb4f780ee7d8bc3502eb763d5ec6f4c5b9
+  SDKWithVungle: 2caf81ef31186fc75d412f1dbea67996651b4797
 
-PODFILE CHECKSUM: 15fdb8a2475827c519634fa032dd8e0f7c7f849a
+PODFILE CHECKSUM: 5a4a48fe1a71f0d3bbe70ff8baf47f310e5b7503
 
 COCOAPODS: 1.11.3

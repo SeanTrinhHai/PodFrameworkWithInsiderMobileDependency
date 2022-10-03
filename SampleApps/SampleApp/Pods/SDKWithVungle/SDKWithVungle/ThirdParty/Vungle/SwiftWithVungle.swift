@@ -7,13 +7,12 @@
 //
 
 import Foundation
-import VungleSDK
+import InsiderMobile
 
 public class SwiftFileWithVungle: NSObject {
     
     public func doSomethingWithVungle() {
-//        let sdk = VungleSDK.shared()
-//        sdk.setLoggingEnabled(true)
+		Insider.init()
         print("Successfully ran some Vungle code")
     }
 }
