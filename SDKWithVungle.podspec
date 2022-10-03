@@ -12,6 +12,10 @@ description
   s.swift_version    = "4.0"
   
 	s.source_files = "Sources/**/*.{swift, h}"
+	
+	s.dependency 'Branch'
+	s.dependency 'FirebaseAnalytics'
+	s.dependency 'Analytics'
 
   s.requires_arc     = true
   s.platform         = :ios, '11.0'
